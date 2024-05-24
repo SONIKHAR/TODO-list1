@@ -1,0 +1,26 @@
+.main {
+  max-width: 1920px;
+  margin: auto;
+}
+.container-fluid {
+  height: 500px;
+  overflow-y: auto;
+}
+.delete-selected {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  opacity: 0.5;
+}
+
+.delete-selected:hover {
+  opacity: 1;
+}
+
+.completed-task .task-title {
+  text-decoration: line-through;
+}
+
+.completed-task {
+  background-color: aliceblue;
+}
